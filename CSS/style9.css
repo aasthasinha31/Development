@@ -1,0 +1,10 @@
+div{
+     width: 400px;
+     height: 100px;
+     background-color: aqua;
+     transition-duration: 5s;
+}
+div:hover{
+     background-color: pink;
+     transition-timing-function: steps(6);
+}

@@ -1,0 +1,17 @@
+#nav{
+    height: 60px;
+    background-color: black;
+    display: flex;
+}
+#BOX1{
+    height: 50px;
+    width: 100px;
+    
+}
+#logon{
+    height: 50px;
+    width: 100%;
+    background-image: url(logo.jpg);
+    background-size: cover;
+}
+

@@ -1,0 +1,50 @@
+h4{
+    color:red
+}
+h5{
+    color:black;
+    background-color: rbg(252, 3, 211)
+}
+button{
+    color:blue
+}
+body{
+   background-color:#ffff00
+}
+/*///////////////////////////////////////////////////////////////////////*position*//*//////////////////////////////////////////////////////*/
+
+body{
+    background-image:url(https://img.freepik.com/free-vector/rectangle-gold-frame-with-foliage-pattern-background_53876-99796.jpg?semt=ais_hybrid&w=740) ;
+    background-size: cover;  /*type od background size= cover , contain, auto*/
+}
+div{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    border: 5px solid black;
+    
+   
+}
+#b1{
+    background-color: aqua;
+    position: static; /*fixed rhega position kbhi change nhi hoga*/
+    background-image: url(rose.jpg);
+    background-size: cover;
+}
+#b2{
+    background-color: pink;
+    position: relative; /*pahle ke position se related change hoga*/
+    top: 50px;
+}
+#b3{
+    background-color: greenyellow;
+    position: absolute;/*related to previous div or body (ancestor)*/
+    left: 50px;
+    top: 100px;
+}
+#b4{
+    background-color: grey;
+    position: fixed; /*based on scroll*/
+    bottom:100px;
+}
+/*fixed-based on scroll, removed from scrolling*/

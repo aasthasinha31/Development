@@ -1,0 +1,46 @@
+*{
+    font-family: 'Times New Roman';
+}
+
+h1{
+   
+    text-align: center;
+    text-transform: capitalize;
+}
+#inner{
+    font-size:10px;
+}
+#outer{
+    font-size:25px;
+}
+#D{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    border-radius: 50%;
+    text-align: center;
+}
+#Q{
+     
+    height: 60px;
+    background-color: black;
+    border: 10px solid orange;
+    
+}
+#logo{
+    font-size: 25px;
+    color:orange;
+    margin-right: 200px;
+}
+#mycart{
+    font-size: 20px;
+    color: white;
+    margin-right: 200px;
+}
+#account{
+
+    font-size: 20px;
+    color: white;
+    margin-right: 200px;
+}
+
